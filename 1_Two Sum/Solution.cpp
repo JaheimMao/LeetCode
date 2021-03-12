@@ -19,6 +19,23 @@ public:
 };
 /***********************************************/
 
+/*************使用哈希表提高查找速率**************/
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int,int> Hash;
+        for(int i = 0; i < nums.size(); i++){
+            int temp = target - nums[i];            
+            auto it = Hash.find(temp);
+            if(it != Hash.end())
+                return {it->second,i};
+            Hash[nums[i]] = i;
+        }
+        return {0};
+    }
+};
+/*********************************************/
+
 int main(void){
     
     return 0;
