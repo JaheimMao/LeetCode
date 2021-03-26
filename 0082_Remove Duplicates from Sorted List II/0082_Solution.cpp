@@ -1,4 +1,4 @@
-//82.Remove Duplicates from Sorted List II
+//0082_Remove Duplicates from Sorted List II
 #include<iostream>
 
 using namespace std;
