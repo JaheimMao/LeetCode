@@ -2,6 +2,7 @@
     "files.associations": {
         "*.json": "python",
         "unordered_map": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "algorithm": "cpp"
     }
 }
