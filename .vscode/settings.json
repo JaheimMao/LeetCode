@@ -3,6 +3,7 @@
         "*.json": "python",
         "unordered_map": "cpp",
         "iostream": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "ostream": "cpp"
     }
 }
