@@ -4,6 +4,7 @@
         "unordered_map": "cpp",
         "iostream": "cpp",
         "algorithm": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "string_view": "cpp"
     }
 }
