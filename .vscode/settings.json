@@ -8,5 +8,6 @@
         "string_view": "cpp",
         "*.tcc": "cpp",
         "vector": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
